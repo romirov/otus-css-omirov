@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Butler";
+    src: url(/fonts/Butler_Regular.otf) format("otf");
+    font-weight: 400;
+  }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 21px;
+  color: #000000;
+}
+
+.attention_words {
+  font-family: "Butler", serif;
+  font-size: 87px;
+  line-height: 104px;
+  color: #000000;
+}
+
+.center {
+  text-align: center;
+}
+  
+.header_footer {
+  font-family: "Butler", serif;
+  font-size: 1rem;
+  line-height: 22px;
+  text-align: center;
+  color: #8C8888;
+}
+
+.mills_signature {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 21px;
+  color: #636363;
+}
+
+.quote {
+  font-family: "Butler", serif;
+  font-size: 2rem;
+  line-height: 38px;
+  color: #000000;
+}
+
+.rotation {
+  transform: rotate(-90deg);
+}
+
+.name {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.description {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.strengths {
+  font-family: "Butler", serif;
+  font-size: 92px;
+  line-height: 110px;
+  color: #000000;
+}
+
+.strengths_list {
+  font-family: "Butler", serif;
+  font-size: 34px;
+  line-height: 41px;
+  color: #000000;
+}
