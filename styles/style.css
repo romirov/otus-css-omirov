@@ -11,6 +11,11 @@
   }
 
 
+html {
+  font-size: 16px;
+}
+
+
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -21,7 +26,7 @@ body {
 
 .attention_words {
   font-family: "Butler400", serif;
-  font-size: 87px;
+  font-size: 5.4rem;
   line-height: 6.5rem;
   color: #000000;
 }
@@ -30,14 +35,7 @@ body {
   text-align: center;
   font-weight: 700;
 }
-  
-.header_footer {
-  font-family: "Butler400", serif;
-  font-size: 1rem;
-  line-height: 1.4rem;
-  text-align: center;
-  color: #8C8888;
-}
+
 
 .mills_signature {
   font-family: 'Roboto', sans-serif;
@@ -62,7 +60,7 @@ body {
 .name {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.1rem;
   text-transform: uppercase;
   color: #000000;
@@ -74,21 +72,21 @@ body {
 
 .description {
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.1rem;
   color: #000000;
 }
 
 .strengths {
   font-family: "Butler400", serif;
-  font-size: 92px;
+  font-size: 5.7rem;
   line-height: 6.9rem;
   color: #000000;
 }
 
 .strengths_list {
   font-family: "Butler400", serif;
-  font-size: 34px;
+  font-size: 2.1rem;
   line-height: 2.6rem;
   color: #000000;
 }
