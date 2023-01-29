@@ -15,14 +15,14 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 21px;
+  line-height: 1.3rem;
   color: #000000;
 }
 
 .attention_words {
   font-family: "Butler400", serif;
   font-size: 87px;
-  line-height: 104px;
+  line-height: 6.5rem;
   color: #000000;
 }
 
@@ -34,7 +34,7 @@ body {
 .header_footer {
   font-family: "Butler400", serif;
   font-size: 1rem;
-  line-height: 22px;
+  line-height: 1.4rem;
   text-align: center;
   color: #8C8888;
 }
@@ -43,14 +43,14 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 1rem;
-  line-height: 21px;
+  line-height: 1.3rem;
   color: #636363;
 }
 
 .quote {
   font-family: "Butler400", serif;
   font-size: 2rem;
-  line-height: 38px;
+  line-height: 2.3rem;
   color: #000000;
 }
 
@@ -63,7 +63,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.1rem;
   text-transform: uppercase;
   color: #000000;
 }
@@ -75,20 +75,20 @@ body {
 .description {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.1rem;
   color: #000000;
 }
 
 .strengths {
   font-family: "Butler400", serif;
   font-size: 92px;
-  line-height: 110px;
+  line-height: 6.9rem;
   color: #000000;
 }
 
 .strengths_list {
   font-family: "Butler400", serif;
   font-size: 34px;
-  line-height: 41px;
+  line-height: 2.6rem;
   color: #000000;
 }
