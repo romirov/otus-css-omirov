@@ -1,8 +1,15 @@
 @font-face {
-    font-family: "Butler";
+    font-family: "Butler400";
     src: url(/fonts/Butler_Regular.otf) format("otf");
     font-weight: 400;
   }
+
+@font-face {
+    font-family: "Butler300";
+    src: url(/fonts/Butler_Regular.otf) format("otf");
+    font-weight: 300;
+  }
+
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -13,7 +20,7 @@ body {
 }
 
 .attention_words {
-  font-family: "Butler", serif;
+  font-family: "Butler400", serif;
   font-size: 87px;
   line-height: 104px;
   color: #000000;
@@ -24,7 +31,7 @@ body {
 }
   
 .header_footer {
-  font-family: "Butler", serif;
+  font-family: "Butler400", serif;
   font-size: 1rem;
   line-height: 22px;
   text-align: center;
@@ -40,7 +47,7 @@ body {
 }
 
 .quote {
-  font-family: "Butler", serif;
+  font-family: "Butler400", serif;
   font-size: 2rem;
   line-height: 38px;
   color: #000000;
@@ -72,14 +79,14 @@ body {
 }
 
 .strengths {
-  font-family: "Butler", serif;
+  font-family: "Butler400", serif;
   font-size: 92px;
   line-height: 110px;
   color: #000000;
 }
 
 .strengths_list {
-  font-family: "Butler", serif;
+  font-family: "Butler400", serif;
   font-size: 34px;
   line-height: 41px;
   color: #000000;
