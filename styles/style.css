@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+}
+
+.menu {
+    position: relative;
+    left: 50%;
+    margin-bottom: 2rem;
+}
+
+.section1 {
+    position: relative;
+    left: 30rem;
+    right: 30rem;
+}
+
+.section1-frame {
+    position: absolute;
+    left: 17rem;
+    top: 11rem;
+    background: white;
+    padding-left: 20rem;
+    padding-right: 13rem;
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+}
+
+.section1-text {
+    position: absolute;
+    left: 13rem;
+    top: 7rem;
+}
