@@ -32,18 +32,6 @@ body {
     margin-bottom: 2rem;
 }
 
-.attention_words {
-  font-family: "Butler400", serif;
-  font-size: 5.4rem;
-  line-height: 6.5rem;
-  color: #000000;
-}
-
-.center {
-  text-align: center;
-  font-weight: 700;
-}
-
 .mod-studio {
     position: relative;
     margin-left: 25%;
@@ -53,20 +41,31 @@ body {
 .mod-studio-frame {
     position: absolute;
     left: 30%;
-    top: 30%;
+    top: 20%;
     background: white;
-    padding-left: 20rem;
-    padding-right: 13rem;
-    padding-top: 10rem;
-    padding-bottom: 8rem;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 20%;
+    padding-bottom: 20%;
 }
 
 .mod-studio-text {
     position: absolute;
-    left: 4rem;
-    top: 5rem;
+    left: 15%;
+    right: 15%;
+    top: 40%;
+    text-align: center;
     line-height: 5rem;
 }
+
+.mod_studio {
+    font-family: "Butler400", serif;
+    font-size: 5rem;
+  }
+  
+.mod_studio_sign {
+    font-weight: 700;
+  }
 
 .mills_signature {
   font-family: 'Roboto', sans-serif;
