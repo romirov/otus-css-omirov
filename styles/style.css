@@ -44,13 +44,13 @@ body {
   font-weight: 700;
 }
 
-.section1 {
+.mod-studio {
     position: relative;
     margin-left: 25%;
     margin-right: 25%;
 }
 
-.section1-frame {
+.mod-studio-frame {
     position: absolute;
     left: 17rem;
     top: 11rem;
@@ -61,7 +61,7 @@ body {
     padding-bottom: 8rem;
 }
 
-.section1-text {
+.mod-studio-text {
     position: absolute;
     left: 4rem;
     top: 5rem;
