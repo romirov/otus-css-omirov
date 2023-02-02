@@ -1,13 +1,3 @@
-* {
-    margin: 0;
-}
-
-.menu {
-    position: relative;
-    left: 50%;
-    margin-bottom: 2rem;
-}
-
 @font-face {
     font-family: "Butler400";
     src: url(/fonts/Butler_Regular.otf) format("otf");
@@ -20,6 +10,9 @@
     font-weight: 300;
   }
 
+* {
+    margin: 0;
+}
 
 html {
   font-size: 16px;
@@ -31,6 +24,12 @@ body {
   font-size: 1rem;
   line-height: 1.3rem;
   color: #000000;
+}
+
+.menu {
+    position: relative;
+    margin-left: 50%;
+    margin-bottom: 2rem;
 }
 
 .attention_words {
@@ -47,8 +46,8 @@ body {
 
 .section1 {
     position: relative;
-    left: 30rem;
-    right: 30rem;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 .section1-frame {
@@ -64,8 +63,9 @@ body {
 
 .section1-text {
     position: absolute;
-    left: 13rem;
-    top: 7rem;
+    left: 4rem;
+    top: 5rem;
+    line-height: 5rem;
 }
 
 .mills_signature {
