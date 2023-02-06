@@ -22,36 +22,34 @@ body {
 
 .menu {
   margin-left: 50%;
-  margin-bottom: 2rem;
+  margin-top: 3%;
+  margin-bottom: 3%;
   color: white;
+}
+
+.mod-studio-section {
+  position: relative;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 .mod-studio-frame {
   position: absolute;
-  left: 37%;
+  left: 25%;
+  right: 25%;
   top: 25%;
-  width: 30%;
-  height: 5%;
-  padding-bottom: 15%;
+  width: 60%;
+  height: 50%;
   background: white;
-}
-
-.mod-studio-text {
-  position: absolute;
-  left: 16%;
-  top: 30%;
   text-align: center;
-
+  line-height: 4.5rem;
 }
 
-.mod-studio {
+.mod_studio {
+  padding-top: 7.5rem;
   font-family: "Butler", serif;
-  font-size: 5rem;
-  line-height: 6rem;
+  font-size: 5.5rem;
   font-weight: 400;
-  margin-left: 25%;
-  margin-right: 25%;
-  line-height: 5.5rem;
 }
   
 .mod_studio_sign {
