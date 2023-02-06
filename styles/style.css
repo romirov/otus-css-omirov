@@ -21,9 +21,9 @@ body {
 }
 
 .menu {
-  position: relative;
   margin-left: 50%;
   margin-bottom: 2rem;
+  color: white;
 }
 
 .mod-studio-frame {
@@ -41,7 +41,7 @@ body {
   left: 16%;
   top: 30%;
   text-align: center;
-  line-height: 5rem;
+
 }
 
 .mod-studio {
@@ -51,6 +51,7 @@ body {
   font-weight: 400;
   margin-left: 25%;
   margin-right: 25%;
+  line-height: 5.5rem;
 }
   
 .mod_studio_sign {
