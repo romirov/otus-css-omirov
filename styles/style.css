@@ -1,17 +1,11 @@
 @font-face {
-    font-family: "Butler400";
-    src: url(/fonts/Butler_Regular.otf) format("otf");
-    font-weight: 400;
-  }
-
-@font-face {
-    font-family: "Butler300";
-    src: url(/fonts/Butler_Regular.otf) format("otf");
-    font-weight: 300;
-  }
+  font-family: "Butler";
+  src: url(/fonts/Butler_Regular.otf) format("otf");
+  font-weight: 300;
+}
 
 * {
-    margin: 0;
+  margin: 0;
 }
 
 html {
@@ -27,45 +21,43 @@ body {
 }
 
 .menu {
-    position: relative;
-    margin-left: 50%;
-    margin-bottom: 2rem;
-}
-
-.mod-studio {
-    position: relative;
-    margin-left: 25%;
-    margin-right: 25%;
+  position: relative;
+  margin-left: 50%;
+  margin-bottom: 2rem;
 }
 
 .mod-studio-frame {
-    position: absolute;
-    left: 30%;
-    top: 20%;
-    background: white;
-    padding-left: 30%;
-    padding-right: 30%;
-    padding-top: 20%;
-    padding-bottom: 20%;
+  position: absolute;
+  left: 37%;
+  top: 25%;
+  width: 30%;
+  height: 5%;
+  padding-bottom: 15%;
+  background: white;
 }
 
 .mod-studio-text {
-    position: absolute;
-    left: 15%;
-    right: 15%;
-    top: 40%;
-    text-align: center;
-    line-height: 5rem;
+  position: absolute;
+  left: 16%;
+  top: 30%;
+  text-align: center;
+  line-height: 5rem;
 }
 
-.mod_studio {
-    font-family: "Butler400", serif;
-    font-size: 5rem;
-  }
+.mod-studio {
+  font-family: "Butler", serif;
+  font-size: 5rem;
+  line-height: 6rem;
+  font-weight: 400;
+  margin-left: 25%;
+  margin-right: 25%;
+}
   
 .mod_studio_sign {
-    font-weight: 700;
-  }
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+}
 
 .mills_signature {
   font-family: 'Roboto', sans-serif;
@@ -76,9 +68,10 @@ body {
 }
 
 .quote {
-  font-family: "Butler400", serif;
+  font-family: "Butler", serif;
   font-size: 2rem;
   line-height: 2.3rem;
+  font-weight: 400;
   color: #000000;
 }
 
@@ -108,15 +101,17 @@ body {
 }
 
 .strengths {
-  font-family: "Butler400", serif;
+  font-family: "Butler", serif;
   font-size: 5.7rem;
   line-height: 6.9rem;
+  font-weight: 400;
   color: #000000;
 }
 
 .strengths_list {
-  font-family: "Butler400", serif;
+  font-family: "Butler", serif;
   font-size: 2.1rem;
   line-height: 2.6rem;
+  font-weight: 400;
   color: #000000;
 }
