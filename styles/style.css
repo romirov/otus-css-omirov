@@ -1,14 +1,8 @@
 @font-face {
-    font-family: "Butler400";
-    src: url(/fonts/Butler_Regular.otf) format("otf");
-    font-weight: 400;
-  }
-
-@font-face {
-    font-family: "Butler300";
-    src: url(/fonts/Butler_Regular.otf) format("otf");
-    font-weight: 300;
-  }
+  font-family: "Butler";
+  src: url(/fonts/Butler_Regular.otf) format("otf");
+  font-weight: 300;
+}
 
 
 html {
@@ -25,14 +19,18 @@ body {
 }
 
 .attention_words {
-  font-family: "Butler400", serif;
+  font-family: "Butler", serif;
   font-size: 5.4rem;
   line-height: 6.5rem;
+  font-weight: 400;
   color: #000000;
 }
 
 .center {
   text-align: center;
+}
+
+.font_weight_roboto_700 {
   font-weight: 700;
 }
 
@@ -46,9 +44,10 @@ body {
 }
 
 .quote {
-  font-family: "Butler400", serif;
+  font-family: "Butler", serif;
   font-size: 2rem;
   line-height: 2.3rem;
+  font-weight: 400;
   color: #000000;
 }
 
@@ -78,15 +77,17 @@ body {
 }
 
 .strengths {
-  font-family: "Butler400", serif;
+  font-family: "Butler", serif;
   font-size: 5.7rem;
   line-height: 6.9rem;
+  font-weight: 400;
   color: #000000;
 }
 
 .strengths_list {
-  font-family: "Butler400", serif;
+  font-family: "Butler", serif;
   font-size: 2.1rem;
   line-height: 2.6rem;
+  font-weight: 400;
   color: #000000;
 }
