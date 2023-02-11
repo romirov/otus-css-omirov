@@ -63,25 +63,30 @@ body {
 .katya-mills-cotainer {
   display: flex;
   flex-flow: row nowrap;
-  margin-left: 25rem;
-  margin-right: 15rem; 
+  /* margin-left: 25rem;
+  margin-right: 15rem;  */
+  justify-content: center;
 }
 
 .katya-mills-bio {
   flex-basis:  10%;
   padding-top: 48.7rem;
+  padding-right: 12%;
   order: 3;
 }
 
 .katya-mills-img {
   flex-basis: 100%;
+  text-align: right;
+  margin-left: 21%;
   order: 1;
 }
 
 .katya-mills-text {
   flex-basis:  90%;
-  padding-left: 9.1rem;
+  text-align: left;
   padding-top: 11.5rem;
+  margin-left: 7.5%;
   order: 2;
 }
 
@@ -100,11 +105,13 @@ body {
   line-height: 1.3rem;
   color: #636363;
   margin-bottom: 3.7rem;
+  text-align: left;
+  
 }
 
 .katya-mills-rectangle {
   background-color: black;
-  width: 01rem;
+  width: 1rem;
   height: 0.3rem;
   margin-bottom: 1.7rem;
 }
