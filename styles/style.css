@@ -4,11 +4,13 @@
   font-weight: 300;
 }
 
+* {
+  margin: 0;
+}
 
 html {
   font-size: 16px;
 }
-
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -18,22 +20,43 @@ body {
   color: #000000;
 }
 
-.attention_words {
-  font-family: "Butler", serif;
-  font-size: 5.4rem;
-  line-height: 6.5rem;
-  font-weight: 400;
-  color: #000000;
+.menu {
+  margin-left: 50%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  color: white;
 }
 
-.center {
+.mod-studio-section {
+  position: relative;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.mod-studio-frame {
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 25%;
+  width: 60%;
+  height: 50%;
+  background: white;
   text-align: center;
+  line-height: 4.5rem;
 }
 
-.font_weight_roboto_700 {
+.mod_studio {
+  padding-top: 7.5rem;
+  font-family: "Butler", serif;
+  font-size: 5.5rem;
+  font-weight: 400;
+}
+  
+.mod_studio_sign {
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
+  font-size: 1rem;
 }
-
 
 .mills_signature {
   font-family: 'Roboto', sans-serif;
