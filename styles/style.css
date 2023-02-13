@@ -60,12 +60,11 @@ body {
 }
 
 /* section 2 */
-.biography {
+.biography-section {
   display: flex;
   flex-flow: row nowrap;
-  /* margin-left: 25rem;
-  margin-right: 15rem;  */
   justify-content: center;
+  margin-bottom: 8rem;
 }
 
 .katya-mills-bio {
@@ -130,6 +129,10 @@ body {
   font-weight: 700;
 }
 
+.designer-section {
+  margin-bottom: 8rem;
+}
+
 .name {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
@@ -141,6 +144,92 @@ body {
 
 .capitalize {
   text-transform: capitalize;
+}
+
+.testimonials-section {
+  display: grid;
+  margin-bottom: 8rem;
+  grid-template-columns: 15% 1fr 1fr;
+  grid-template-rows: 10% 30% 30% 30%;
+  justify-items: stretch;
+}
+
+.testimonials-section-header {
+  grid-column: 2;
+  text-align: start;
+  align-items: center;
+  padding-top: 3%;
+}
+
+.testimonials-header {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  line-height: 1.3rem;
+  font-size: 1.1rem;
+}
+
+.testimonials-site1 {
+  grid-column: 1;
+  grid-row: 2;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.1rem;
+  text-align: left;
+  padding-left: 10%;
+  padding-top: 70%;
+  transform: rotate(-90deg);
+}
+
+.testimonials-site2 {
+  grid-column: 1;
+  grid-row: 3;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.1rem;
+  /* align-self: center; */
+  text-align: left;
+  transform: rotate(-90deg);
+  /* justify-self: end; */
+  padding-left: 17%;
+  padding-top: 30%;
+}
+
+.testimonials-site3 {
+  grid-column: 1;
+  grid-row: 4;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.1rem;
+  text-align: left;
+  /* padding-left: 60%;
+  padding-top: 80%; */
+  align-self: end;
+  transform: rotate(-90deg);
+}
+
+.testimonials-main-img {
+  grid-column: 2;
+  grid-row: 2/4;
+  justify-self: left;
+}
+
+.testimonials-quote {
+  grid-column: 3;
+  grid-row: 2/3;
+  text-align: left;
+}
+
+.quote {
+  font-family: "Butler", serif;
+  font-size: 1.9rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+  color: #000000;
+  margin-bottom: 4%;
+  padding-left: 2%;
 }
 
 .description {
