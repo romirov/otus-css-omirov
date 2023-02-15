@@ -168,45 +168,29 @@ body {
   font-size: 1.1rem;
 }
 
-.testimonials-site1 {
+.testimonials-sites{
   grid-column: 1;
-  grid-row: 2;
+  grid-row: 2/5;
+  display: flexbox;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 1rem;
   line-height: 1.1rem;
   text-align: left;
-  padding-left: 10%;
-  padding-top: 70%;
+}
+
+.testimonials-site-website {
+  margin-left: 5%;
+  padding-top: 63%;
   transform: rotate(-90deg);
 }
 
-.testimonials-site2 {
-  grid-column: 1;
-  grid-row: 3;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  font-size: 1rem;
-  line-height: 1.1rem;
-  /* align-self: center; */
-  text-align: left;
-  transform: rotate(-90deg);
-  /* justify-self: end; */
-  padding-left: 17%;
-  padding-top: 30%;
-}
-
-.testimonials-site3 {
-  grid-column: 1;
-  grid-row: 4;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  font-size: 1rem;
-  line-height: 1.1rem;
-  text-align: left;
-  /* padding-left: 60%;
-  padding-top: 80%; */
-  align-self: end;
+.testimonials-site-creativity {
+  padding-top: 55%;
+  margin-left: 23%;
   transform: rotate(-90deg);
 }
 
