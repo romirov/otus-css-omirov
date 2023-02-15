@@ -129,8 +129,42 @@ body {
   font-weight: 700;
 }
 
+.designer-section-signers {
+  text-align: center;
+}
+
+/* section 3 */
 .designer-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 9% 50%;
   margin-bottom: 8rem;
+}
+
+.designer-header {
+  grid-column: 2;
+  grid-row: 1;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.1rem;
+  margin-right: 36%;
+  margin-top: 4%;
+}
+
+.designer-section-jess {
+  grid-column: 1;
+  grid-row: 1/2;
+  text-align: center;
+}
+
+.designer-section-kameron-louisse {
+  grid-column: 2;
+  grid-row: 2;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content:left;
+  gap: 5%;
 }
 
 .name {
@@ -146,6 +180,7 @@ body {
   text-transform: capitalize;
 }
 
+/* section 4 */
 .testimonials-section {
   display: grid;
   margin-bottom: 8rem;
@@ -223,6 +258,7 @@ body {
   color: #000000;
 }
 
+/* section 5 */
 .strengths {
   font-family: "Butler", serif;
   font-size: 5.7rem;
