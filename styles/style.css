@@ -149,7 +149,7 @@ body {
 .testimonials-section {
   display: grid;
   margin-bottom: 8rem;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 30%;
   grid-template-rows: repeat(2, auto-fit);
   width: auto;
   margin: auto;
@@ -221,7 +221,9 @@ body {
   line-height: 2.4rem;
   font-weight: 400;
   color: #000000;
-  margin-bottom: 14%;
+  margin-bottom: 5%;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 
 .description {
