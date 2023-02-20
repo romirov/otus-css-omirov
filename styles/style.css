@@ -149,16 +149,16 @@ body {
 .testimonials-section {
   display: grid;
   margin-bottom: 8rem;
-  grid-template-columns: 15% 1fr 1fr;
-  grid-template-rows: 10% 30% 30% 30%;
-  justify-items: stretch;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(2, auto-fit);
+  width: auto;
+  margin: auto;
 }
 
 .testimonials-section-header {
   grid-column: 2;
-  text-align: start;
-  align-items: center;
-  padding-top: 3%;
+  justify-self: left;
+  margin-bottom: 6%;
 }
 
 .testimonials-header {
@@ -170,40 +170,49 @@ body {
 
 .testimonials-sites{
   grid-column: 1;
-  grid-row: 2/5;
-  display: flexbox;
+  grid-row: 2;
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 1rem;
   line-height: 1.1rem;
+  justify-items: end;
   text-align: left;
 }
 
 .testimonials-site-website {
-  margin-left: 5%;
-  padding-top: 63%;
+  grid-row: 1;
+  padding-right: 15%;
+  padding-top: 28%;
   transform: rotate(-90deg);
 }
 
-.testimonials-site-creativity {
-  padding-top: 55%;
-  margin-left: 23%;
+.testimonials-site-creativity1 {
+  grid-row: 2;
+  padding-right: 5%;
+  padding-top: 23%;
+  transform: rotate(-90deg);
+}
+
+.testimonials-site-creativity2 {
+  grid-row: 3;
+  padding-left: 4%;
+  padding-top: 23%;
   transform: rotate(-90deg);
 }
 
 .testimonials-main-img {
   grid-column: 2;
-  grid-row: 2/4;
+  grid-row: 2;
   justify-self: left;
 }
 
 .testimonials-quote {
   grid-column: 3;
-  grid-row: 2/3;
-  text-align: left;
+  grid-row: 2;
+  justify-self: center;
+  margin-right: 10%;
 }
 
 .quote {
@@ -212,12 +221,12 @@ body {
   line-height: 2.4rem;
   font-weight: 400;
   color: #000000;
-  margin-bottom: 4%;
-  padding-left: 2%;
+  margin-bottom: 14%;
 }
 
 .description {
   font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   font-size: 1rem;
   line-height: 1.1rem;
   color: #000000;
