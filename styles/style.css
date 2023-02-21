@@ -133,7 +133,7 @@ body {
 .designer {
   display: grid;
   grid-template-columns: repeat(3, auto);
-  grid-template-rows: 10% 50%;
+  grid-template-rows: 7rem 40rem;
   max-width: 1450px;
   margin: 0 auto;
 }
@@ -203,11 +203,10 @@ body {
 /* section 4 */
 .testimonials-section {
   display: grid;
-  margin-bottom: 8rem;
   grid-template-columns: 1fr 1fr 30%;
   grid-template-rows: repeat(2, auto-fit);
   width: auto;
-  margin: auto;
+  margin: 8rem auto;
 }
 
 .testimonials-section-header {
@@ -290,12 +289,49 @@ body {
 }
 
 /* section 5 */
+.strong-points-header {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.1rem;
+  margin-right: 27%;
+  padding-top: 2%;
+}
+
+.strong-points {
+  display: flex;
+  flex-flow: row nowrap;
+  width: auto;
+  /* height: 0; */
+  margin: auto;
+  justify-content: center;
+  gap: 1.6%;
+  max-width: 1440px;
+}
+
+.strong-points-dawid {
+  flex-basis: auto;
+  margin-top: 5%;
+}
+
+.strong-points-avery {
+  flex-basis: auto;
+  margin-top: 5%;
+}
+
+.strong-points-list {
+  flex-basis: auto;
+  padding-bottom: 30%;
+}
+
 .strengths {
   font-family: "Butler", serif;
   font-size: 5.7rem;
   line-height: 6.9rem;
   font-weight: 400;
   color: #000000;
+  margin-left: 20%;
+  margin-bottom: 4%;
 }
 
 .strengths_list {
@@ -304,4 +340,13 @@ body {
   line-height: 2.6rem;
   font-weight: 400;
   color: #000000;
+  text-align: left;
+  margin-left: 40%;
+}
+
+.strong-points-half-hidden-img {
+  flex-basis: auto;
+  margin-top: 5%;
+  overflow:hidden;
+  padding-left: 16%;
 }
