@@ -130,7 +130,7 @@ body {
 }
 
 /* section 3 */
-.designer-section {
+.designer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 9% 50%;
@@ -156,14 +156,14 @@ body {
   margin-bottom: 6%;
 }
 
-.designer-section-jess {
+.designer-jess {
   grid-column: 1;
   grid-row: 1/2;
   text-align: center;
   margin-left: 7%;
 }
 
-.designer-section-kameron-louisse {
+.designer-kameron-louisse {
   grid-column: 2;
   grid-row: 2;
   display: flex;
@@ -172,12 +172,12 @@ body {
   gap: 3%;
 }
 
-.designer-section-signers-jess {
+.designer-signers-jess {
   text-align: left;
   margin-left: 35%;
 }
 
-.designer-section-signers {
+.designer-signers {
   text-align: left;
 }
 
