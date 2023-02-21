@@ -134,7 +134,8 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 9% 50%;
-  margin-right: 6%;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .designer-header {
