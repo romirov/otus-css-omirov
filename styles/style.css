@@ -302,7 +302,6 @@ body {
   display: flex;
   flex-flow: row nowrap;
   width: auto;
-  /* height: 0; */
   margin: auto;
   justify-content: center;
   gap: 1.6%;
@@ -349,4 +348,54 @@ body {
   margin-top: 5%;
   overflow:hidden;
   padding-left: 16%;
+}
+
+@supports (display: grid) {
+  .strong-points {
+    display: grid;
+    grid-template-columns: repeat(4, 1 fr);
+    grid-template-rows: repeat(2, 1fr);
+    max-height: 700px;
+  }
+
+  .strong-points-header {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.1rem;
+    margin-right: 27%;
+    padding-top: 2%;
+    padding-right: 6%;
+  }
+
+  .strong-points-dawid {
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: 40%;
+  }
+
+  .strong-points-avery {
+    grid-column: 2;
+    grid-row: 1;
+    margin-top: 40%;
+  }
+
+  .strong-points-list {
+    grid-column: 3;
+    grid-row: 1;
+    margin-left: 3%;
+  }
+
+  .strengths {
+    margin-bottom: 17%;
+    margin-left: 16%;
+  }
+
+  .strong-points-half-hidden-img {
+    grid-column: 4;
+    grid-row: 1;
+    margin-top: 42%;
+    overflow:hidden;
+    padding-left: 68%;
+  }
 }
