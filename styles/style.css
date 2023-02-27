@@ -204,7 +204,7 @@ body {
 .testimonials-section {
   display: grid;
   grid-template-columns: 1fr 1fr 30%;
-  grid-template-rows: repeat(2, auto-fit);
+  grid-template-rows: repeat(2, auto);
   width: auto;
   margin: 8rem auto;
 }
@@ -353,8 +353,8 @@ body {
 @supports (display: grid) {
   .strong-points {
     display: grid;
-    grid-template-columns: repeat(4, 1 fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
     max-height: 700px;
   }
 
@@ -371,13 +371,13 @@ body {
   .strong-points-dawid {
     grid-column: 1;
     grid-row: 1;
-    margin-top: 40%;
+    margin-top: 8.5rem;
   }
 
   .strong-points-avery {
     grid-column: 2;
     grid-row: 1;
-    margin-top: 40%;
+    margin-top: 8.5rem;
   }
 
   .strong-points-list {
@@ -394,8 +394,8 @@ body {
   .strong-points-half-hidden-img {
     grid-column: 4;
     grid-row: 1;
-    margin-top: 42%;
-    overflow:hidden;
+    margin-top: 8.5rem;
+    overflow: hidden;
     padding-left: 68%;
   }
 }
