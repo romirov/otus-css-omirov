@@ -60,12 +60,11 @@ body {
 }
 
 /* section 2 */
-.biography {
+.biography-section {
   display: flex;
   flex-flow: row nowrap;
-  /* margin-left: 25rem;
-  margin-right: 15rem;  */
   justify-content: center;
+  margin-bottom: 8rem;
 }
 
 .katya-mills-bio {
@@ -130,6 +129,10 @@ body {
   font-weight: 700;
 }
 
+.designer-section {
+  margin-bottom: 8rem;
+}
+
 .name {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
@@ -143,8 +146,89 @@ body {
   text-transform: capitalize;
 }
 
+.testimonials-section {
+  display: grid;
+  margin-bottom: 8rem;
+  grid-template-columns: 1fr 1fr 30%;
+  grid-template-rows: repeat(2, auto-fit);
+  width: auto;
+  margin: auto;
+}
+
+.testimonials-section-header {
+  grid-column: 2;
+  justify-self: left;
+  margin-bottom: 6%;
+}
+
+.testimonials-header {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  line-height: 1.3rem;
+  font-size: 1.1rem;
+}
+
+.testimonials-sites{
+  grid-column: 1;
+  grid-row: 2;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.1rem;
+  justify-items: end;
+  text-align: left;
+}
+
+.testimonials-site-website {
+  grid-row: 1;
+  padding-right: 15%;
+  padding-top: 28%;
+  transform: rotate(-90deg);
+}
+
+.testimonials-site-creativity1 {
+  grid-row: 2;
+  padding-right: 5%;
+  padding-top: 23%;
+  transform: rotate(-90deg);
+}
+
+.testimonials-site-creativity2 {
+  grid-row: 3;
+  padding-left: 4%;
+  padding-top: 23%;
+  transform: rotate(-90deg);
+}
+
+.testimonials-main-img {
+  grid-column: 2;
+  grid-row: 2;
+  justify-self: left;
+}
+
+.testimonials-quote {
+  grid-column: 3;
+  grid-row: 2;
+  justify-self: center;
+  margin-right: 10%;
+}
+
+.quote {
+  font-family: "Butler", serif;
+  font-size: 1.9rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+  color: #000000;
+  margin-bottom: 5%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
 .description {
   font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   font-size: 1rem;
   line-height: 1.1rem;
   color: #000000;
