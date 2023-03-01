@@ -5,7 +5,7 @@
 }
 
 * {
-  margin: 0;
+  margin: 0 auto;
 }
 
 html {
@@ -20,10 +20,13 @@ body {
   line-height: 1.3rem;
   color: #000000;
 }
+
 /* section 1 */
+@media (min-width: 428px){
 .menu {
-  margin-top: 3%;
-  margin-bottom: 3%;
+  margin-top: 3.5%;
+  margin-bottom: 2.5%;
+  margin-left: 6%;
   color: white;
 }
 
@@ -36,18 +39,18 @@ body {
 
 .mod-studio-frame {
   position: absolute;
-  left: 25%;
-  right: 25%;
-  top: 25%;
-  width: 60%;
-  height: 50%;
+  left: 27%;
+  right: 27%;
+  top: 21%;
+  width: 58%;
+  height: 57%;
   background: white;
   text-align: center;
-  line-height: 4.5rem;
+  line-height: 4.8rem;
 }
 
 .mod_studio {
-  padding-top: 7.5rem;
+  padding-top: 25%;
   font-family: "Butler", serif;
   font-size: 5.5rem;
   font-weight: 400;
@@ -57,6 +60,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 1rem;
+  padding-right: 5%;
 }
 
 /* section 2 */
@@ -397,5 +401,38 @@ body {
     margin-top: 8.5rem;
     overflow: hidden;
     padding-left: 68%;
+  }
+}
+}
+@media (max-width: 428px) {
+
+  .menu{
+    display: none;
+  }
+
+  /*section 1 for mobile*/
+  .mod-studio-section {
+    background-size: cover;
+    margin: 0;
+    /* text-align: left; */
+    width: 27rem;
+    height: 56rem;
+  }
+
+   .mod-studio-pic{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: -29rem 0;
+  } 
+  
+  .mod-studio-frame {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    width: 100%;
+    height: 47%;
   }
 }
