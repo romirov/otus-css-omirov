@@ -504,14 +504,18 @@ body {
 
   .katya-mills-img{
     flex-basis: auto;
+    
     order: 5;
-    width: 28rem;
+    width: 22rem;
     height: 22rem;
-    padding-right: 14rem;
+    padding-right: 24rem;
     margin-top: -25px;
     z-index: -1;
     position: relative;
+    background-size: cover;
     padding-bottom: 13.5rem;
-    object-position: 0 100px;
+
+    object-fit: cover;
+    object-position: -29rem 0;
   }
 }
