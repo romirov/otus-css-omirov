@@ -412,16 +412,16 @@ body {
 
   /*section 1 for mobile*/
   .mod-studio-section {
-    background-size: cover;
+    display: flex;
     margin: 0;
-    /* text-align: left; */
-    width: 27rem;
+    background-size: cover;
+    width: 28.6rem;
     height: 56rem;
   }
 
    .mod-studio-pic{
     position: relative;
-    width: 100%;
+    width: 28.6rem;
     height: 100%;
     object-fit: cover;
     object-position: -29rem 0;
@@ -433,6 +433,85 @@ body {
     right: 0%;
     top: 0%;
     width: 100%;
-    height: 47%;
+    height: 40%;
+  }
+
+  .mod_studio{
+    font-size: 4.3rem;
+  }
+
+  /*section 2 for mobile*/
+  .biography-section{
+    display: flex;
+    flex-flow: wrap;
+    padding: 0;
+    margin: 0;
+  }
+
+  .katya-mills-bio{
+    flex-basis:auto;
+    order: 1;
+    padding-top: 0;
+    padding-right: 0;
+    padding-left: 25%;
+    transform: rotate(90deg);
+    margin-left: 65%;
+    margin-top: 8%;
+  }
+
+
+  .katya-mills-text{
+    order: 2;
+    display: flex;
+    flex-flow: wrap;   
+    margin: 0%;
+    padding: 0%;
+  }
+
+  .katya-mills{
+    flex-basis: auto;
+    order: 4;
+    font-size: 4.3rem;
+    margin: 0;
+    padding-left: 15%;
+    margin-top: -23%;
+  }
+
+  .katya-mills-signature{
+    flex-basis: auto;
+    order: 1;
+    width: 10.5rem;
+    margin-left: 3%;
+    margin-top: 8%;
+  }
+
+  .katya-mills-quote{
+    flex-basis: auto;
+    order: 2;
+    font-size: 2rem;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: left;
+  }
+
+  .katya-mills-rectangle{
+    flex-basis: auto;
+    order: 3;
+    width: 2rem;
+    margin-right: 21rem;
+    margin-top: 30%;
+  }
+
+  .katya-mills-img{
+    flex-basis: auto;
+    order: 5;
+    width: 28rem;
+    height: 22rem;
+    padding-right: 14rem;
+    margin-top: -25px;
+    z-index: -1;
+    position: relative;
+    padding-bottom: 13.5rem;
+    object-position: 0 100px;
   }
 }
