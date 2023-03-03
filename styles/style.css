@@ -22,7 +22,7 @@ body {
 }
 
 /* section 1 */
-@media (min-width: 428px){
+@media (min-width: 458px){
 .menu {
   margin-top: 3.5%;
   margin-bottom: 2.5%;
@@ -404,7 +404,7 @@ body {
   }
 }
 }
-@media (max-width: 428px) {
+@media (max-width: 458px) {
 
   .menu{
     display: none;
@@ -474,7 +474,7 @@ body {
     font-size: 4.3rem;
     margin: 0;
     padding-left: 15%;
-    margin-top: -23%;
+    margin-top: -21.5%;
   }
 
   .katya-mills-signature{
@@ -498,8 +498,8 @@ body {
     flex-basis: auto;
     order: 3;
     width: 2rem;
-    margin-right: 21rem;
-    margin-top: 30%;
+    margin-right: 22.5rem;
+    margin-top: 21%;
   }
 
   .katya-mills-img{
@@ -517,5 +517,27 @@ body {
 
     object-fit: cover;
     object-position: -29rem 0;
+    /* margin-bottom: 10rem; */
+  }
+
+  /*section 3 for mobile*/
+  .designer-header{
+    position: relative;
+    left: -10rem;
+    transform: rotate(0deg);
+    margin-top: 2rem;
+    height: 5rem;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding-top: 5rem;
+    padding-left: 10rem;
+  }
+
+  .designer{
+    
+  }
+  .designer-jess{
+    display: none;
   }
 }
