@@ -535,7 +535,8 @@ body {
   }
 
   .designer{
-    
+    margin-top: -10rem;
+    gap: 2rem;
   }
   .designer-jess{
     display: none;
