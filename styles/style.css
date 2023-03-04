@@ -518,10 +518,10 @@ body {
   /*section 3 for mobile*/
   .designer-header{
     position: relative;
-    left: -10rem;
+    left: -18rem;
     transform: rotate(0deg);
     height: 5rem;
-    width: 100%;
+    width: 150%;
     background-color: white;
     text-align: center;
     padding-top: 5rem;
@@ -548,7 +548,7 @@ body {
   .testimonials-section-header{
     grid-column: 1;
     grid-row: 1;
-    padding-left: 16rem;
+    padding-left: 20rem;
     margin-bottom: 8rem;
   }
   .testimonials-main-img{
@@ -601,4 +601,73 @@ body {
     padding-right: 53%;
     padding-top: 15%;
   }
+
+   /*section 5 for mobile*/
+  .strong-points-header{
+    transform: rotate(0deg);
+    padding-top: 12rem;
+    padding-left: 19rem;
+    margin:0
+   }
+
+   .strong-points-avery{
+    display: none;
+   }
+
+   .strong-points {
+    
+  }
+
+  .strong-points-list{
+    padding-left: 2rem;
+  }
+
+  .strengths{
+    margin-left: 0;
+    margin-right: 9rem;
+    margin-bottom: 2rem;
+  }
+
+  .strengths_list{
+    margin-left: 0;
+  }
+
+  .strong-points-dawid {
+    grid-column: 3;
+    max-width: 10rem;
+    padding: 0;
+    justify-self: center;
+    overflow: hidden;
+    margin-left: 19rem;
+  }
+
+  .strong-points-half-hidden-img {
+    display: none;
+  }
+
+  .strong-footer{
+    grid-column: 1/4;
+    grid-row: 1/4;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    font-family: "Butler", serif;
+    font-size: 2.1rem;
+    line-height: 2.6rem;
+    font-weight: 400;
+    vertical-align: middle;
+  }
+
+  .delimiter{
+    width: 27.5rem;
+    height: 0.1rem;
+    padding-top: 0.5%; 
+    margin: 0;
+    background-color: #000000;
+  }
+
+  .strong-footer-alfabet{
+
+  }
+  
 }
