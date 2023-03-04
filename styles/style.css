@@ -614,10 +614,6 @@ body {
     display: none;
    }
 
-   .strong-points {
-    
-  }
-
   .strong-points-list{
     padding-left: 2rem;
   }
@@ -655,7 +651,11 @@ body {
     font-size: 2.1rem;
     line-height: 2.6rem;
     font-weight: 400;
-    vertical-align: middle;
+    padding-top: 1.5rem;
+  }
+
+  .item{
+    text-decoration: underline;
   }
 
   .delimiter{
@@ -665,9 +665,4 @@ body {
     margin: 0;
     background-color: #000000;
   }
-
-  .strong-footer-alfabet{
-
-  }
-  
 }
