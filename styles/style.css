@@ -5,7 +5,7 @@
 }
 
 * {
-  margin: 0;
+  margin: 0 auto;
 }
 
 html {
@@ -20,10 +20,13 @@ body {
   line-height: 1.3rem;
   color: #000000;
 }
+
 /* section 1 */
+@media (min-width: 458px){
 .menu {
-  margin-top: 3%;
-  margin-bottom: 3%;
+  margin-top: 3.5%;
+  margin-bottom: 2.5%;
+  margin-left: 6%;
   color: white;
 }
 
@@ -36,18 +39,18 @@ body {
 
 .mod-studio-frame {
   position: absolute;
-  left: 25%;
-  right: 25%;
-  top: 25%;
-  width: 60%;
-  height: 50%;
+  left: 27%;
+  right: 27%;
+  top: 21%;
+  width: 58%;
+  height: 57%;
   background: white;
   text-align: center;
-  line-height: 4.5rem;
+  line-height: 4.8rem;
 }
 
 .mod_studio {
-  padding-top: 7.5rem;
+  padding-top: 25%;
   font-family: "Butler", serif;
   font-size: 5.5rem;
   font-weight: 400;
@@ -57,6 +60,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 1rem;
+  padding-right: 5%;
 }
 
 /* section 2 */
@@ -398,4 +402,272 @@ body {
     overflow: hidden;
     padding-left: 68%;
   }
+}
+}
+@media (max-width: 458px) {
+
+  .menu{
+    display: none;
+  }
+
+  /*section 1 for mobile*/
+  .mod-studio-section {
+    display: flex;
+    margin: 0;
+    background-size: cover;
+    width: 28.6rem;
+    height: 56rem;
+  }
+
+   .mod-studio-pic{
+    position: relative;
+    width: 28.6rem;
+    height: 100%;
+    object-fit: cover;
+    object-position: -29rem 0;
+  } 
+  
+  .mod-studio-frame {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    width: 100%;
+    height: 40%;
+  }
+
+  .mod_studio{
+    font-size: 4.3rem;
+  }
+
+  /*section 2 for mobile*/
+  .biography-section{
+    display: flex;
+    flex-flow: wrap;
+    padding: 0;
+    margin: 0;
+  }
+
+  .katya-mills-bio{
+    flex-basis:auto;
+    order: 1;
+    padding-top: 0;
+    padding-right: 0;
+    padding-left: 25%;
+    transform: rotate(90deg);
+    margin-left: 65%;
+    margin-top: 8%;
+  }
+
+
+  .katya-mills-text{
+    order: 2;
+    display: flex;
+    flex-flow: wrap;   
+    margin: 0%;
+    padding: 0%;
+  }
+
+  .katya-mills{
+    flex-basis: auto;
+    order: 4;
+    font-size: 4.3rem;
+    margin: 0;
+    padding-left: 15%;
+    margin-top: -21.5%;
+  }
+
+  .katya-mills-signature{
+    flex-basis: auto;
+    order: 1;
+    width: 10.5rem;
+    margin-left: 3%;
+    margin-top: 8%;
+  }
+
+  .katya-mills-quote{
+    flex-basis: auto;
+    order: 2;
+    font-size: 2rem;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: left;
+  }
+
+  .katya-mills-rectangle{
+    flex-basis: auto;
+    order: 3;
+    width: 2rem;
+    margin-right: 22.5rem;
+    margin-top: 21%;
+  }
+
+  .katya-mills-img{
+    flex-basis: auto;
+    order: 5;
+    margin-left: 0;
+    margin-top: -25px;
+    z-index: -1;
+    padding-right: 4rem;
+    width: 428px;
+    height: 600px;
+    top: -30rem;
+    overflow: hidden;    
+  }
+
+  /*section 3 for mobile*/
+  .designer-header{
+    position: relative;
+    left: -18rem;
+    transform: rotate(0deg);
+    height: 5rem;
+    width: 150%;
+    background-color: white;
+    text-align: center;
+    padding-top: 5rem;
+    padding-left: 10rem;
+  }
+
+  .designer{
+    margin-top: -10rem;
+    gap: 2rem;
+  }
+  .designer-jess{
+    display: none;
+  }
+
+  /*section 4 for mobile*/
+  .testimonials-section{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    width: 458px;
+    height: 820px;
+  }
+
+  .testimonials-section-header{
+    grid-column: 1;
+    grid-row: 1;
+    padding-left: 20rem;
+    margin-bottom: 8rem;
+  }
+  .testimonials-main-img{
+    display: none;
+  }
+
+  .testimonials-quote{
+    grid-column: 1;
+    grid-row: 2;
+    background-size: cover;
+  }
+
+  .quote{
+    margin-left: 3rem;
+    margin-right: 2rem;
+    margin-bottom: 4rem;
+  }
+
+  .testimonials-second-img{
+    width: 100%;
+    height: 25rem;
+    object-fit: cover;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  .testimonials-sites{
+    grid-column: 1;
+    grid-row: 3;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+
+  .testimonials-site-website {
+    transform: rotate(0deg);
+    padding-right: 0;
+    padding-top: 15%;
+  }
+
+  .testimonials-site-creativity1 {
+    transform: rotate(0deg);
+    padding-right: 0;
+    padding-top: 15%;
+  }
+
+  .testimonials-site-creativity2 {
+    transform: rotate(0deg);
+    padding-right: 53%;
+    padding-top: 15%;
+  }
+
+   /*section 5 for mobile*/
+  .strong-points-header{
+    transform: rotate(0deg);
+    padding-top: 12rem;
+    padding-left: 19rem;
+    margin:0
+   }
+
+   .strong-points-avery{
+    display: none;
+   }
+
+   .strong-points {
+    
+  }
+
+  .strong-points-list{
+    padding-left: 2rem;
+  }
+
+  .strengths{
+    margin-left: 0;
+    margin-right: 9rem;
+    margin-bottom: 2rem;
+  }
+
+  .strengths_list{
+    margin-left: 0;
+  }
+
+  .strong-points-dawid {
+    grid-column: 3;
+    max-width: 10rem;
+    padding: 0;
+    justify-self: center;
+    overflow: hidden;
+    margin-left: 19rem;
+  }
+
+  .strong-points-half-hidden-img {
+    display: none;
+  }
+
+  .strong-footer{
+    grid-column: 1/4;
+    grid-row: 1/4;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    font-family: "Butler", serif;
+    font-size: 2.1rem;
+    line-height: 2.6rem;
+    font-weight: 400;
+    vertical-align: middle;
+  }
+
+  .delimiter{
+    width: 27.5rem;
+    height: 0.1rem;
+    padding-top: 0.5%; 
+    margin: 0;
+    background-color: #000000;
+  }
+
+  .strong-footer-alfabet{
+
+  }
+  
 }
