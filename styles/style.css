@@ -23,345 +23,272 @@ body {
 
 /* section 1 */
 @media (min-width: 458px){
-.menu {
-  margin-top: 3.5%;
-  margin-bottom: 2.5%;
-  margin-left: 6%;
-  color: white;
-}
-
-.mod-studio-section {
-  position: relative;
-  margin-left: 25%;
-  margin-right: 25%;
-  margin-bottom: 8rem;
-}
-
-.mod-studio-frame {
-  position: absolute;
-  left: 27%;
-  right: 27%;
-  top: 21%;
-  width: 58%;
-  height: 57%;
-  background: white;
-  text-align: center;
-  line-height: 4.8rem;
-}
-
-.mod_studio {
-  padding-top: 25%;
-  font-family: "Butler", serif;
-  font-size: 5.5rem;
-  font-weight: 400;
-}
-  
-.mod_studio_sign {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  font-size: 1rem;
-  padding-right: 5%;
-}
-
-/* section 2 */
-.biography-section {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-  margin-bottom: 7rem;
-}
-
-.katya-mills-bio {
-  flex-basis:  10%;
-  font-size: 0.7rem;
-  padding-top: 48.7rem;
-  padding-right: 12.6%;
-  order: 3;
-}
-
-.katya-mills-img {
-  flex-basis: 100%;
-  text-align: right;
-  margin-left: 21%;
-  order: 1;
-}
-
-.katya-mills-text {
-  flex-basis:  90%;
-  text-align: left;
-  padding-top: 11.5rem;
-  margin-left: 7.5%;
-  order: 2;
-}
-
-.katya-mills {
-  font-family: "Butler", serif;
-  font-size: 5.5rem;
-  font-weight: 400;
-  line-height: 6.6rem;
-  margin-bottom: 3rem;
-}
-
-.katya-mills-signature {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 1.1rem;
-  line-height: 1.2rem;
-  color: #636363;
-  margin-bottom: 3.9rem;
-  text-align: left;
-  
-}
-
-.katya-mills-rectangle {
-  background-color: black;
-  width: 1rem;
-  height: 0.3rem;
-  margin-bottom: 1.8rem;
-}
-
-.katya-mills-quote {
-  font-family: "Butler", serif;
-  font-size: 1.9rem;
-  line-height: 2.4rem;
-  font-weight: 400;
-  color: #000000;
-}
-
-.rotation {
-  transform: rotate(-90deg);
-  font-weight: 700;
-}
-
-/* section 3 */
-.designer {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
-  grid-template-rows: 7rem 40rem;
-  max-width: 1450px;
-  margin: 0 auto;
-}
-
-.designer-header {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  font-size: 1rem;
-  line-height: 1.1rem;
-  margin-left: 35%;
-  padding-right: 7%;
-}
-
-.designer-img-margin-bottom-jess {
-  margin-bottom: 4%;
-}
-
-.designer-img-margin-bottom-other {
-  margin-bottom: 5%;
-}
-
-.designer-jess {
-  grid-column: 1;
-  grid-row: 1/2;
-  justify-self: center;
-  margin-top: 2%;
-}
-
-.designer-kameron {
-  grid-column: 2;
-  grid-row: 2;
-  justify-self: end;
-}
-
-.designer-louisse {
-  grid-column: 3;
-  grid-row: 2;
-  margin-right: 5%;
-}
-
-.designer-signers-jess {
-  text-align: left;
-  margin-left: 30%;
-}
-
-.designer-signers {
-  text-align: left;
-}
-.designer-signers-louisse {
-  margin-left: 7%;
-
-}
-
-.name {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  font-size: 1rem;
-  line-height: 1.1rem;
-  text-transform: uppercase;
-  color: #000000;
-}
-
-.capitalize {
-  text-transform: capitalize;
-}
-
-/* section 4 */
-.testimonials-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr 30%;
-  grid-template-rows: repeat(2, auto);
-  width: auto;
-  margin: 8rem auto;
-}
-
-.testimonials-section-header {
-  grid-column: 2;
-  justify-self: left;
-  margin-bottom: 6%;
-}
-
-.testimonials-header {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  line-height: 1.3rem;
-  font-size: 1.1rem;
-}
-
-.testimonials-sites{
-  grid-column: 1;
-  grid-row: 2;
-  display: grid;
-  grid-template-rows: repeat(3, 1fr);
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  font-size: 1rem;
-  line-height: 1.1rem;
-  justify-items: end;
-  text-align: left;
-}
-
-.testimonials-site-website {
-  grid-row: 1;
-  padding-right: 15%;
-  padding-top: 28%;
-  transform: rotate(-90deg);
-}
-
-.testimonials-site-creativity1 {
-  grid-row: 2;
-  padding-right: 5%;
-  padding-top: 23%;
-  transform: rotate(-90deg);
-}
-
-.testimonials-site-creativity2 {
-  grid-row: 3;
-  padding-left: 4%;
-  padding-top: 23%;
-  transform: rotate(-90deg);
-}
-
-.testimonials-main-img {
-  grid-column: 2;
-  grid-row: 2;
-  justify-self: left;
-}
-
-.testimonials-quote {
-  grid-column: 3;
-  grid-row: 2;
-  justify-self: center;
-  margin-right: 10%;
-}
-
-.quote {
-  font-family: "Butler", serif;
-  font-size: 1.9rem;
-  line-height: 2.4rem;
-  font-weight: 400;
-  color: #000000;
-  margin-bottom: 5%;
-  margin-left: 30%;
-  margin-right: 30%;
-}
-
-.description {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.1rem;
-  color: #000000;
-}
-
-/* section 5 */
-.strong-points-header {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  font-size: 1rem;
-  line-height: 1.1rem;
-  margin-right: 27%;
-  padding-top: 2%;
-}
-
-.strong-points {
-  display: flex;
-  flex-flow: row nowrap;
-  width: auto;
-  margin: auto;
-  justify-content: center;
-  gap: 1.6%;
-  max-width: 1440px;
-}
-
-.strong-points-dawid {
-  flex-basis: auto;
-  margin-top: 5%;
-}
-
-.strong-points-avery {
-  flex-basis: auto;
-  margin-top: 5%;
-}
-
-.strong-points-list {
-  flex-basis: auto;
-  padding-bottom: 30%;
-}
-
-.strengths {
-  font-family: "Butler", serif;
-  font-size: 5.7rem;
-  line-height: 6.9rem;
-  font-weight: 400;
-  color: #000000;
-  margin-left: 20%;
-  margin-bottom: 4%;
-}
-
-.strengths_list {
-  font-family: "Butler", serif;
-  font-size: 2.1rem;
-  line-height: 2.6rem;
-  font-weight: 400;
-  color: #000000;
-  text-align: left;
-  margin-left: 40%;
-}
-
-.strong-points-half-hidden-img {
-  flex-basis: auto;
-  margin-top: 5%;
-  overflow:hidden;
-  padding-left: 16%;
-}
-
-@supports (display: grid) {
-  .strong-points {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr;
-    max-height: 700px;
+  .menu {
+    margin-top: 3.5%;
+    margin-bottom: 2.5%;
+    color: white;
   }
 
+  .mod-studio-section {
+    position: relative;
+    margin-left: 22%;
+    margin-right: 22%;
+    margin-bottom: 8rem;
+  }
+
+  .mod-studio-frame {
+    position: absolute;
+    left: 24%;
+    top: 21%;
+    width: 52%;
+    height: 56%;
+    background: white;
+    text-align: center;
+    line-height: 4.8rem;
+  }
+
+  .mod_studio {
+    padding-top: 25%;
+    font-family: "Butler", serif;
+    font-size: 5.5rem;
+    font-weight: 400;
+  }
+    
+  .mod_studio_sign {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    padding-right: 5%;
+  }
+
+  /* section 2 */
+  .biography-section {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-bottom: 7rem;
+  }
+
+  .katya-mills-bio {
+    flex-basis:  10%;
+    font-size: 0.7rem;
+    padding-top: 48.7rem;
+    padding-right: 14.5%;
+    order: 3;
+  }
+
+  .katya-mills-img {
+    flex-basis: 100%;
+    text-align: right;
+    margin-left: 19%;
+    order: 1;
+  }
+
+  .katya-mills-text {
+    flex-basis:  90%;
+    text-align: left;
+    padding-top: 11.5rem;
+    margin-left: 7.5%;
+    order: 2;
+  }
+
+  .katya-mills {
+    font-family: "Butler", serif;
+    font-size: 5.5rem;
+    font-weight: 400;
+    line-height: 6.6rem;
+    margin-bottom: 3rem;
+    padding-right: 35%;
+  }
+
+  .katya-mills-signature {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 1.2rem;
+    color: #636363;
+    text-align: left;
+    margin-left: 2%;
+  }
+
+  .katya-mills-rectangle {
+    background-color: black;
+    margin-top: 3.9rem;
+    width: 1rem;
+    height: 0.3rem;
+    margin-bottom: 1.8rem;
+    margin-left: 2%;
+  }
+
+  .katya-mills-quote {
+    font-family: "Butler", serif;
+    font-size: 1.9rem;
+    line-height: 2.4rem;
+    font-weight: 400;
+    color: #000000;
+    padding-right: 20%;
+  }
+
+  .rotation {
+    transform: rotate(-90deg);
+    font-weight: 700;
+  }
+
+  /* section 3 */
+  .designer {
+    display: grid;
+    grid-template-columns: repeat(3, 32.5rem);
+    grid-template-rows: 8rem 40rem;
+    max-width: 1450px;
+    margin: 0 auto;
+  }
+
+  .designer-header {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.1rem;
+    margin-left: 32%;
+    padding-right: 8.5%;
+  }
+
+  .designer-jess {
+    grid-column: 1;
+    grid-row: 1/2;
+    margin-top: 6%;
+  }
+
+  .designer-img-margin-bottom-jess {
+    margin-bottom: 1.4rem;
+  }
+
+  .designer-kameron {
+    grid-column: 2;
+    grid-row: 2;
+    padding-left: 39%;
+  }
+
+  .designer-louisse {
+    grid-column: 3;
+    grid-row: 2;
+    padding-right: 32%;
+  }
+
+  .designer-signers-jess {
+    text-align: left;
+    margin-left: 30%;
+  }
+
+  .designer-signers {
+    text-align: left;
+  }
+
+  .designer-img-margin-bottom-other{
+    margin-bottom: 1.4rem;
+  }
+
+  .name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.1rem;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+  .capitalize {
+    text-transform: capitalize;
+  }
+
+  /* section 4 */
+  .testimonials-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 30%;
+    grid-template-rows: repeat(2, auto);
+    width: auto;
+    margin: 8rem auto;
+  }
+
+  .testimonials-section-header {
+    grid-column: 2;
+    justify-self: left;
+    margin-bottom: 6%;
+  }
+
+  .testimonials-header {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 1.3rem;
+    font-size: 1.1rem;
+  }
+
+  .testimonials-sites{
+    grid-column: 1;
+    grid-row: 2;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.1rem;
+    justify-items: end;
+    text-align: left;
+  }
+
+  .testimonials-site-website {
+    grid-row: 1;
+    padding-right: 15%;
+    padding-top: 28%;
+    transform: rotate(-90deg);
+  }
+
+  .testimonials-site-creativity1 {
+    grid-row: 2;
+    padding-right: 5%;
+    padding-top: 23%;
+    transform: rotate(-90deg);
+  }
+
+  .testimonials-site-creativity2 {
+    grid-row: 3;
+    padding-left: 4%;
+    padding-top: 23%;
+    transform: rotate(-90deg);
+  }
+
+  .testimonials-main-img {
+    grid-column: 2;
+    grid-row: 2;
+    justify-self: left;
+  }
+
+  .testimonials-quote {
+    grid-column: 3;
+    grid-row: 2;
+    justify-self: center;
+    margin-right: 10%;
+  }
+
+  .quote {
+    font-family: "Butler", serif;
+    font-size: 1.9rem;
+    line-height: 2.4rem;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+
+  .description {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.1rem;
+    color: #000000;
+  }
+
+  /* section 5 */
   .strong-points-header {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -369,41 +296,117 @@ body {
     line-height: 1.1rem;
     margin-right: 27%;
     padding-top: 2%;
-    padding-right: 6%;
+  }
+
+  .strong-points {
+    display: flex;
+    flex-flow: row nowrap;
+    width: auto;
+    margin: auto;
+    justify-content: center;
+    gap: 1.6%;
+    max-width: 1440px;
   }
 
   .strong-points-dawid {
-    grid-column: 1;
-    grid-row: 1;
-    margin-top: 8.5rem;
+    flex-basis: auto;
+    margin-top: 5%;
   }
 
   .strong-points-avery {
-    grid-column: 2;
-    grid-row: 1;
-    margin-top: 8.5rem;
+    flex-basis: auto;
+    margin-top: 5%;
   }
 
   .strong-points-list {
-    grid-column: 3;
-    grid-row: 1;
-    margin-left: 3%;
+    flex-basis: auto;
+    padding-bottom: 30%;
   }
 
   .strengths {
-    margin-bottom: 17%;
-    margin-left: 16%;
+    font-family: "Butler", serif;
+    font-size: 5.7rem;
+    line-height: 6.9rem;
+    font-weight: 400;
+    color: #000000;
+    margin-left: 20%;
+    margin-bottom: 4%;
+  }
+
+  .strengths_list {
+    font-family: "Butler", serif;
+    font-size: 2.1rem;
+    line-height: 2.6rem;
+    font-weight: 400;
+    color: #000000;
+    text-align: left;
+    margin-left: 40%;
   }
 
   .strong-points-half-hidden-img {
-    grid-column: 4;
-    grid-row: 1;
-    margin-top: 8.5rem;
-    overflow: hidden;
-    padding-left: 68%;
+    flex-basis: auto;
+    margin-top: 5%;
+    overflow:hidden;
+    padding-left: 16%;
+  }
+
+  @supports (display: grid) {
+    .strong-points {
+      display: grid;
+      grid-template-columns: repeat(4, 21.5rem);
+      grid-template-rows: 1fr;
+      max-height: 700px;
+      max-width: 1450px;
+      overflow: hidden;
+      justify-content: center;
+    }
+
+    .strong-points-header {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 700;
+      font-size: 1rem;
+      line-height: 1.1rem;
+      margin-right: 27%;
+      padding-top: 2%;
+      padding-right: 6%;
+    }
+
+    .strong-points-dawid {
+      grid-column: 1;
+      grid-row: 1;
+      margin-top: 8.5rem;
+    }
+
+    .strong-points-avery {
+      grid-column: 2;
+      grid-row: 1;
+      margin-top: 8.5rem;
+    }
+
+    .strong-points-list {
+      grid-column: 3;
+      grid-row: 1;
+      margin-left: 5%;
+    }
+
+    .strengths {
+      margin-bottom: 15%;
+      margin-left: 17%;
+    }
+
+    .strong-points-half-hidden-img {
+      grid-column: 4;
+      grid-row: 1;
+      margin-top: 8.5rem;
+      padding-left:69%;
+    }
+
+    .strong-footer{
+      display: none;
+    }
   }
 }
-}
+
 @media (max-width: 458px) {
 
   .menu{
