@@ -22,7 +22,7 @@ body {
 }
 
 /* section 1 */
-@media (min-width: 458px){
+@media (min-width: 767px){
   .menu {
     margin-top: 3.5%;
     margin-bottom: 2.5%;
@@ -415,7 +415,7 @@ body {
   }
 }
 
-@media (max-width: 458px) {
+@media (max-width: 767px) {
 
   .menu{
     display: none;
