@@ -443,11 +443,14 @@ body {
     left: 0%;
     right: 0%;
     top: 0%;
-    width: 100%;
-    height: 40%;
+    width: 28.6rem;
+    height: 23.5rem;
+    background-color: white;
   }
 
   .mod_studio{
+    margin-top: 10rem;
+    margin-bottom: 4rem;
     font-size: 4.3rem;
   }
 
