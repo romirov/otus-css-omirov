@@ -648,6 +648,7 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    text-align: left;
     margin: 0;
   }
 
@@ -670,11 +671,31 @@ body {
   }
 
    /*section 5 for mobile*/
+   .strong-points-section{
+    max-width: 28.8rem;
+   }
+
   .strong-points-header{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.1rem;
     transform: rotate(0deg);
-    padding-top: 12rem;
-    padding-left: 19rem;
-    margin:0
+    padding-top: 25rem;
+    padding-left: 16rem;
+    padding-bottom: 10rem;
+    margin: 0;
+   }
+
+   .strong-points {
+    display: grid;
+    grid-template-columns: 15rem 14rem;
+    grid-template-rows: 33rem;
+    width: 26rem;
+    margin: 0;
+    justify-content: center;
+    max-width: 26rem;
+    gap: 1.6%;
    }
 
    .strong-points-avery{
@@ -682,26 +703,39 @@ body {
    }
 
   .strong-points-list{
+    grid-column: 1;
+    grid-row: 1;
     padding-left: 2rem;
   }
 
   .strengths{
-    margin-left: 0;
-    margin-right: 9rem;
-    margin-bottom: 2rem;
+    font-family: "Butler", serif;
+    font-size: 5.9rem;
+    line-height: 7rem;
+    font-weight: 400;
+    color: #000000;
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+    margin-top: -8rem;
   }
 
   .strengths_list{
-    margin-left: 0;
+    grid-column: 1;
+    grid-row: 1;
+    font-family: "Butler", serif;
+    line-height: 2.4rem;
+    font-weight: 400;
+    font-size: 2.1rem;
+    text-align: left;
+    margin-left: 2rem;
   }
 
   .strong-points-dawid {
-    grid-column: 3;
+    grid-column: 2;
     max-width: 10rem;
     padding: 0;
-    justify-self: center;
+    margin-left: 4rem;
     overflow: hidden;
-    margin-left: 19rem;
   }
 
   .strong-points-half-hidden-img {
@@ -709,8 +743,6 @@ body {
   }
 
   .strong-footer{
-    grid-column: 1/4;
-    grid-row: 1/4;
     display: flex;
     justify-content: center;
     text-align: left;
@@ -719,6 +751,7 @@ body {
     line-height: 2.6rem;
     font-weight: 400;
     padding-top: 1.5rem;
+    margin-bottom: 1.5rem;
   }
 
   .item{
@@ -729,7 +762,8 @@ body {
     width: 27.5rem;
     height: 0.1rem;
     padding-top: 0.5%; 
-    margin: 0;
+    padding: 0;
+    margin-top: 3rem;
     background-color: #000000;
   }
 }
