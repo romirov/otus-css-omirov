@@ -29,6 +29,18 @@ body {
     color: white;
   }
 
+  .menu:focus {
+    background-color: blue;
+  }
+
+  .menu:hover {
+    background-color: steelblue;
+  }
+
+  .mod-studio-pic:hover{
+    transform: rotate(180deg);
+  }
+
   .mod-studio-section {
     position: relative;
     margin-left: 22%;
@@ -248,6 +260,7 @@ body {
     padding-right: 25%;
     padding-top: 78%;
     transform: rotate(-90deg);
+    /* transition: ; */
   }
 
   .testimonials-site-creativity2 {
@@ -291,6 +304,14 @@ body {
     font-size: 1rem;
     line-height: 1.1rem;
     color: #000000;
+  }
+
+  .description:focus{
+    color: yellow;
+  }
+
+  .description:hover{
+    color: red;
   }
 
   /* section 5 */
