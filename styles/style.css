@@ -26,7 +26,10 @@ body {
   .menu {
     margin-top: 3.5%;
     margin-bottom: 2.5%;
-    color: white;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
   }
 
   .menu:focus {
@@ -35,6 +38,10 @@ body {
 
   .menu:hover {
     background-color: steelblue;
+  }
+
+  .mod-studio-pic:hover{
+    transition: transform 0.3s;
   }
 
   .mod-studio-pic:hover{
@@ -304,6 +311,8 @@ body {
     font-size: 1rem;
     line-height: 1.1rem;
     color: #000000;
+    text-decoration: none;
+    transition: color 0.3s;
   }
 
   .description:focus{
