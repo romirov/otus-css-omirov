@@ -40,8 +40,8 @@ body {
     background-color: steelblue;
   }
 
-  .mod-studio-pic:hover{
-    transition: transform 0.3s;
+  .mod-studio-pic{
+    transition: transform 1s;
   }
 
   .mod-studio-pic:hover{
