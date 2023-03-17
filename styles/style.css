@@ -29,7 +29,7 @@ body {
     background-color: white;
     border: none;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: all 0.3s;
   }
 
   .menu:focus {
@@ -38,6 +38,7 @@ body {
 
   .menu:hover {
     background-color: steelblue;
+    transform: scale(120%);
   }
 
   .mod-studio-pic{
@@ -267,7 +268,6 @@ body {
     padding-right: 25%;
     padding-top: 78%;
     transform: rotate(-90deg);
-    /* transition: ; */
   }
 
   .testimonials-site-creativity2 {
@@ -312,7 +312,7 @@ body {
     line-height: 1.1rem;
     color: #000000;
     text-decoration: none;
-    transition: color 0.3s;
+    transition: all 0.3s;
   }
 
   .description:focus{
@@ -320,7 +320,7 @@ body {
   }
 
   .description:hover{
-    color: red;
+    background-color: red;
   }
 
   /* section 5 */
