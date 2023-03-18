@@ -41,11 +41,11 @@ body {
     transform: scale(120%);
   }
 
-  .mod-studio-pic{
+  .mod-studio__pic{
     transition: transform 1s;
   }
 
-  .mod-studio-pic:hover{
+  .mod-studio__pic:hover{
     transform: rotate(180deg);
   }
 
@@ -67,14 +67,14 @@ body {
     line-height: 4.8rem;
   }
 
-  .mod_studio {
+  .mod_studio__header {
     padding-top: 25%;
     font-family: "Butler", serif;
     font-size: 5.5rem;
     font-weight: 400;
   }
     
-  .mod_studio_sign {
+  .mod_studio__sign {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 1rem;
@@ -112,7 +112,7 @@ body {
     order: 2;
   }
 
-  .katya-mills {
+  .katya-mills__main {
     font-family: "Butler", serif;
     font-size: 5.5rem;
     font-weight: 400;
@@ -122,7 +122,7 @@ body {
     background-color: white;
   }
 
-  .katya-mills-signature {
+  .katya-mills__signature {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 1.1rem;
@@ -141,7 +141,7 @@ body {
     margin-left: 2%;
   }
 
-  .katya-mills-quote {
+  .katya-mills__quote {
     font-family: "Butler", serif;
     font-size: 1.9rem;
     line-height: 2.4rem;
@@ -164,7 +164,7 @@ body {
     margin: 0 auto;
   }
 
-  .designer-header {
+  .designer__header {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 1rem;
@@ -179,7 +179,7 @@ body {
     margin-top: 6%;
   }
 
-  .designer-img-margin-bottom-jess {
+  .designer-img-margin-bottom__jess {
     margin-bottom: 1.4rem;
   }
 
@@ -195,16 +195,16 @@ body {
     padding-right: 32%;
   }
 
-  .designer-signers-jess {
+  .designer-signers__jess {
     text-align: left;
     margin-left: 30%;
   }
 
-  .designer-signers {
+  .designer__signers {
     text-align: left;
   }
 
-  .designer-img-margin-bottom-other{
+  .designer-img-margin-bottom__other{
     margin-bottom: 1.4rem;
   }
 
@@ -236,7 +236,7 @@ body {
     margin-left: 1.5rem;
   }
 
-  .testimonials-header {
+  .testimonials__header {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     line-height: 1.3rem;
@@ -256,7 +256,7 @@ body {
     text-align: left;
   }
 
-  .testimonials-site-website {
+  .testimonials-site__website {
     grid-row: 1;
     padding-right: 55%;
     padding-top: 68%;
@@ -290,7 +290,7 @@ body {
     justify-self: center;
   }
 
-  .quote {
+  .testimonials-quote__quote {
     font-family: "Butler", serif;
     font-size: 1.9rem;
     line-height: 2.4rem;
@@ -301,11 +301,11 @@ body {
     margin-bottom: 2rem;
   }
 
-  .testimonials-second-img{
+  .testimonials-second__img{
     margin-right: 3rem;
   }
 
-  .description {
+  .testimonials-site-website__description {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 1rem;
@@ -315,11 +315,11 @@ body {
     transition: all 0.3s;
   }
 
-  .description:focus{
+  .testimonials-site-website__description:focus{
     color: yellow;
   }
 
-  .description:hover{
+  .testimonials-site-website__description:hover{
     background-color: red;
   }
 
@@ -328,7 +328,7 @@ body {
     margin-top: -3rem;
   }
 
-  .strong-points-header {
+  .strong-points__header {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 1.3rem;
@@ -361,7 +361,7 @@ body {
     flex-basis: auto;
   }
 
-  .strengths {
+  .strong-points-list__header {
     font-family: "Butler", serif;
     font-size: 5.9rem;
     line-height: 7rem;
@@ -370,7 +370,7 @@ body {
     margin-left: 20%;
   }
 
-  .strengths_list {
+  .strong-points__list {
     font-family: "Butler", serif;
     font-size: 2.1rem;
     line-height: 2.4rem;
@@ -398,7 +398,7 @@ body {
       justify-content: center;
     }
 
-    .strong-points-header {
+    .strong-points__header {
       font-family: 'Roboto', sans-serif;
       font-weight: 700;
       font-size: 1rem;
@@ -426,7 +426,7 @@ body {
       margin-left: 5%;
     }
 
-    .strengths {
+    .strong-points-list__header {
       margin-bottom: 15%;
       margin-left: 17%;
     }
@@ -459,7 +459,7 @@ body {
     height: 56rem;
   }
 
-   .mod-studio-pic{
+   .mod-studio__pic{
     position: relative;
     width: 28.6rem;
     height: 100%;
@@ -477,7 +477,7 @@ body {
     background-color: white;
   }
 
-  .mod_studio{
+  .mod_studio__header{
     margin-top: 10rem;
     margin-bottom: 4rem;
     font-size: 4.3rem;
@@ -515,7 +515,7 @@ body {
     padding: 0%;
   }
 
-  .katya-mills{
+  .katya-mills__main{
     flex-basis: auto;
     order: 4;
     font-family: "Butler", serif;
@@ -527,7 +527,7 @@ body {
     margin-top: -5.5%;
   }
 
-  .katya-mills-signature{
+  .katya-mills__signature{
     flex-basis: auto;
     order: 1;
     font-family: 'Roboto', sans-serif;
@@ -543,7 +543,7 @@ body {
     color: #636363;
   }
 
-  .katya-mills-quote{
+  .katya-mills__quote{
     flex-basis: auto;
     order: 2;
     font-family: "Butler", serif;
@@ -579,7 +579,7 @@ body {
   }
 
   /*section 3 for mobile*/
-  .designer-header{
+  .designer__header{
     position: relative;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -613,7 +613,7 @@ body {
     line-height: 1.2rem;
   }
 
-  .designer-signers-louisse{
+  .designer-signers__louisse{
     margin-left: 2rem;
   }
 
@@ -634,7 +634,7 @@ body {
     margin-bottom: 8rem;
   }
 
-  .testimonials-header{
+  .testimonials__header{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 1.1rem;
@@ -651,10 +651,10 @@ body {
     background-size: cover;
   }
 
-  .testimonials-br{
+  .testimonials__br{
     display: none;
   }
-  .quote{
+  .testimonials-quote__quote{
     margin-left: 4rem; 
     margin-right: 4rem;
     margin-bottom: 4rem;
@@ -664,7 +664,7 @@ body {
     font-weight: 400;
   }
 
-  .testimonials-second-img{
+  .testimonials-second__img{
     width: 90%;
     height: 25rem;
     object-fit: cover;
@@ -682,7 +682,7 @@ body {
     margin: 0;
   }
 
-  .testimonials-site-website {
+  .testimonials-site__website {
     transform: rotate(0deg);
     padding-right: 0;
     padding-top: 15%;
@@ -705,7 +705,7 @@ body {
     max-width: 28.8rem;
    }
 
-  .strong-points-header{
+  .strong-points__header{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 1rem;
@@ -738,7 +738,7 @@ body {
     padding-left: 2rem;
   }
 
-  .strengths{
+  .strong-points-list__header{
     font-family: "Butler", serif;
     font-size: 5.9rem;
     line-height: 7rem;
@@ -749,7 +749,7 @@ body {
     margin-top: -8rem;
   }
 
-  .strengths_list{
+  .strong-points__list{
     grid-column: 1;
     grid-row: 1;
     font-family: "Butler", serif;
@@ -761,7 +761,7 @@ body {
     transition: all 0.3s;
   }
 
-  .strengths_list:hover{
+  .strong-points__list:hover{
     transform: translate(42px, 0px);
   }
 
@@ -802,11 +802,11 @@ body {
     background-color: #000000;
   }
 
-  .strong-alfabet{
+  .strong__alfabet{
     transition: all 0.3s;
   }
 
-  .strong-alfabet:hover{
+  .strong__alfabet:hover{
     background-color: black;
     color: gray;
   }
