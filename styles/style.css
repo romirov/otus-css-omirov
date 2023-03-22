@@ -41,12 +41,12 @@ body {
   }
 
   /* section 1 */
-  .mod-studio {
+  /* .mod-studio {
     position: relative;
     margin-left: 22%;
     margin-right: 22%;
     margin-bottom: 8rem;
-  }
+  } */
 
   .mod-studio__pic{
     transition: transform 1s;
