@@ -22,7 +22,6 @@ body {
 }
 
 @media (min-width: 767px){
-  /* section 1 */
   .menu {
     margin-top: 3.5%;
     margin-bottom: 2.5%;
@@ -41,19 +40,20 @@ body {
     transform: scale(120%);
   }
 
+  /* section 1 */
+  .mod-studio {
+    position: relative;
+    margin-left: 22%;
+    margin-right: 22%;
+    margin-bottom: 8rem;
+  }
+
   .mod-studio__pic{
     transition: transform 1s;
   }
 
   .mod-studio__pic:hover{
     transform: rotate(180deg);
-  }
-
-  .mod-studio-section {
-    position: relative;
-    margin-left: 22%;
-    margin-right: 22%;
-    margin-bottom: 8rem;
   }
 
   .mod-studio-frame {
@@ -67,14 +67,14 @@ body {
     line-height: 4.8rem;
   }
 
-  .mod_studio__header {
+  .mod-studio-frame__header {
     padding-top: 25%;
     font-family: "Butler", serif;
     font-size: 5.5rem;
     font-weight: 400;
   }
     
-  .mod_studio__sign {
+  .mod-studio-frame__sign {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 1rem;
@@ -450,7 +450,7 @@ body {
   }
 
   /*section 1 for mobile*/
-  .mod-studio-section {
+  .mod-studio {
     display: flex;
     margin: 0;
     background-size: cover;
@@ -477,7 +477,7 @@ body {
     background-color: white;
   }
 
-  .mod_studio__header{
+  .mod-studio-frame__header{
     margin-top: 10rem;
     margin-bottom: 4rem;
     font-size: 4.3rem;
