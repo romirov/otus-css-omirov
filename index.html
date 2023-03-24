@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
     <title>Mod Studio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 </head>
 <body>
     <nav>
@@ -19,11 +20,11 @@
         </button>
     </nav>
     <!-- section 1 -->
-    <section class="mod-studio-section">
-        <img class="mod-studio-pic" src="img/inside-weather-Uxqlfigh6oE-unsplash 1.png" alt="inside-weather">
-            <div class="mod-studio-frame">
-                <h1 class="mod_studio">Mod Studio</h1>
-                <p class="mod_studio_sign">Modern Web Studio</p>
+    <section class="position-relative text-center">
+        <img src="img/inside-weather-Uxqlfigh6oE-unsplash 1.png" alt="inside-weather">
+            <div class="position-absolute top-50 start-50 translate-middle bg-white" style="width: 30%; height: 56%;">
+                <h1 class="mod-studio-frame__header" style="padding-top: 21%;">Mod Studio</h1>
+                <p class="mod-studio-frame__sign pe-5">Modern Web Studio</p>
             </div>
     </section>
     
@@ -38,16 +39,16 @@
         </div>
     
         <div class="katya-mills-text">
-            <p class="katya-mills">
+            <p class="katya-mills__main">
                 Katya Mills
             </p>
 
-            <p class="katya-mills-signature">Art Director</p>
-            <p class="katya-mills-signature">Scenography / Styling / Creative Photography / Design</p>
+            <p class="katya-mills__signature">Art Director</p>
+            <p class="katya-mills__signature">Scenography / Styling / Creative Photography / Design</p>
             
             <div class="katya-mills-rectangle"></div>
 
-            <p class="katya-mills-quote">“The more I deal with the work
+            <p class="katya-mills__quote">“The more I deal with the work
                 as something that is my own,  as
                 something that is personal, the
                 more successful it is.”</p>
@@ -57,22 +58,22 @@
     <!-- section 3 -->
     <section>
         <header>
-            <h2 class="rotation designer-header">Designers</h2>
+            <h2 class="rotation designer__header">Designers</h2>
         </header>
         <div class="designer">
             <div class="designer-jess">
-                <img class="designer-img-margin-bottom-jess" src="img/spurwing-agency-r6LceZ3ckpM-unsplash 1.png" alt="spurwing-agency">
-                <p class="name designer-signers-jess">Jess Wonder</p>
-                <p class="description designer-signers-jess">
+                <img class="designer-img-margin-bottom__jess" src="img/spurwing-agency-r6LceZ3ckpM-unsplash 1.png" alt="spurwing-agency">
+                <p class="name designer-signers__jess">Jess Wonder</p>
+                <p class="description designer-signers__jess">
                     <strong>From/</strong> Be more flower<br>
                     <strong>Skills/</strong> Design Strategy / Marketing
                 </p>
             </div>
 
             <div class="designer-kameron">
-                <img class="designer-img-margin-bottom-other" src="img/stil-P1jQzyvqfns-unsplash 1.png" alt="stil1">
-                <p class="name designer-signers">Kameron Clein</p>
-                <p class="description designer-signers">
+                <img class="designer-img-margin-bottom__other" src="img/stil-P1jQzyvqfns-unsplash 1.png" alt="stil1">
+                <p class="name designer__signers">Kameron Clein</p>
+                <p class="description designer__signers">
                     <strong>From/</strong> Be more flower <br>
                     <strong>Skills/</strong> Design Strategy / Marketing
                 </p>
@@ -80,8 +81,8 @@
         
             <div class="designer-louisse">
                 <img class="designer-img-margin-bottom-other" src="img/stil-_mvSe9q8_n4-unsplash 1.png" alt="stil2">
-                <p class="name designer-signers designer-signers-louisse">Louisse Red</p>
-                <p class="description designer-signers designer-signers-louisse">
+                <p class="name designer__signers designer-signers__louisse">Louisse Red</p>
+                <p class="description designer__signers designer-signers__louisse">
                     <strong>From/</strong> Be more flower <br>
                     <strong>Skills/</strong> Design Strategy / Marketing
                 </p>
@@ -92,23 +93,23 @@
     <!-- section 4 -->
     <section class="testimonials-section">
         <header class="testimonials-section-header">
-            <h2 class="testimonials-header">Testimonials</h2>
+            <h2 class="testimonials__header">Testimonials</h2>
         </header>
         
         <div class="testimonials-sites">
-            <div class="testimonials-site-website">
+            <div class="testimonials-site__website">
                 <p>Website</p>
-                <a class="description" href="#www.whitepapers.com">www.whitepapers.com</a>
+                <a class="testimonials-site-website__description" href="#www.whitepapers.com">www.whitepapers.com</a>
             </div>
 
             <div class="testimonials-site-creativity1">
                 <p>Creativity</p>
-                <a class="description" href="#www.whitepapers.com">www.whitepapers.com</a>
+                <a class="testimonials-site-website__description" href="#www.whitepapers.com">www.whitepapers.com</a>
             </div>
 
             <div class="testimonials-site-creativity2">
                 <p >Creativity</p>
-                <a class="description" href="#www.whitepapers.com">www.whitepapers.com</a>
+                <a class="testimonials-site-website__description" href="#www.whitepapers.com">www.whitepapers.com</a>
             </div>
         </div>
 
@@ -118,21 +119,21 @@
         </div>
 
         <div class="testimonials-quote">
-            <p class="quote">I just really want<br class="testimonials-br">
+            <p class="testimonials-quote__quote">I just really want<br class="testimonials__br">
                 to do good<br class="testimonials-br">
                 work and work<br class="testimonials-br">
                 with some great<br class="testimonials-br">
                 people, people<br class="testimonials-br">
                 who challange<br class="testimonials-br">
                 me.</p>
-            <img class="testimonials-second-img" src="img/sinitta-leunen-YaReHIzNdRw-unsplash 1.png" alt="">
+            <img class="testimonials-second__img" src="img/sinitta-leunen-YaReHIzNdRw-unsplash 1.png" alt="">
         </div>
     </section>
 
     <!-- section 5 -->
     <section class="strong-points-section">
         <header>
-            <h2 class="rotation strong-points-header">Strong points</h2>
+            <h2 class="rotation strong-points__header">Strong points</h2>
         </header>
         <div class="strong-points">
             <div class="strong-points-dawid">
@@ -144,19 +145,19 @@
 
             <div class="strong-points-list">
                 <dl>
-                    <dt class="strengths">Strengths</dt>
-                        <dd class="strengths_list">Interiors</dd>
-                        <dd class="strengths_list">Outdoors</dd>
-                        <dd class="strengths_list">Portraits</dd>
-                        <dd class="strengths_list">Styling</dd>
-                        <dd class="strengths_list">Events</dd>
-                        <dd class="strengths_list">Architecture</dd>
-                        <dd class="strengths_list">Design</dd>
-                        <dd class="strengths_list">Celebrations</dd>
-                        <dd class="strengths_list">Artistic</dd>
-                        <dd class="strengths_list">Fashion</dd>
-                        <dd class="strengths_list">Nature</dd>
-                        <dd class="strengths_list">Creativity</dd>
+                    <dt class="strong-points-list__header">Strengths</dt>
+                        <dd class="strong-points__list">Interiors</dd>
+                        <dd class="strong-points__list">Outdoors</dd>
+                        <dd class="strong-points__list">Portraits</dd>
+                        <dd class="strong-points__list">Styling</dd>
+                        <dd class="strong-points__list">Events</dd>
+                        <dd class="strong-points__list">Architecture</dd>
+                        <dd class="strong-points__list">Design</dd>
+                        <dd class="strong-points__list">Celebrations</dd>
+                        <dd class="strong-points__list">Artistic</dd>
+                        <dd class="strong-points__list">Fashion</dd>
+                        <dd class="strong-points__list">Nature</dd>
+                        <dd class="strong-points__list">Creativity</dd>
                 </dl>
             </div>
 
@@ -167,11 +168,12 @@
 
         <div class="delimiter"></div>
         <footer class="strong-footer">
-            <p><strong>B</strong></p>
-            <p><strong>D</strong></p>
-            <p><strong>T</strong></p>
-            <p class="item"><strong>S</strong></p>
+            <p class="strong__alfabet"><strong>B</strong></p>
+            <p class="strong__alfabet"><strong>D</strong></p>
+            <p class="strong__alfabet"><strong>T</strong></p>
+            <p class="item strong__alfabet"><strong>S</strong></p>
         </footer>
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 </body>
 </html>
