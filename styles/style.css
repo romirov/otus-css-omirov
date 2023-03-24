@@ -23,32 +23,7 @@ body {
 
 @media (min-width: 767px){
   /* section 1 */
-  .menu {
-    margin-top: 3.5%;
-    margin-bottom: 2.5%;
-    color: white;
-  }
-
-  .mod-studio-section {
-    position: relative;
-    margin-left: 22%;
-    margin-right: 22%;
-    margin-bottom: 8rem;
-  }
-
-  .mod-studio-frame {
-    position: absolute;
-    left: 24%;
-    top: 21%;
-    width: 52%;
-    height: 56%;
-    background: white;
-    text-align: center;
-    line-height: 4.8rem;
-  }
-
   .mod_studio {
-    padding-top: 25%;
     font-family: "Butler", serif;
     font-size: 5.5rem;
     font-weight: 400;
@@ -58,7 +33,6 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 1rem;
-    padding-right: 5%;
   }
 
   /* section 2 */
