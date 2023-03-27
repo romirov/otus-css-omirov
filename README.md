@@ -1,15 +1,24 @@
 # Frontend project
 
+## Project for Otus course
+### Branches:
+#### [master]
+```
+This is main branch.
+```
 
-### DZ-1: Version Control
+#### [bem]
 ```
-Task List: 
--[X] Create GitHub accaunt
--[X] Create new repository
--[X] Clone repository
--[X] Create new branch
--[X] Add README.md
--[X] Add index.html
--[X] Create git commit
--[X] Create git push to a new repository in GitHub
+The first section is made according to the BEM methodology.
 ```
+
+#### [bootstrap]
+```
+The first section is made using Bootstrap.
+```
+
+#### [tailwind]
+```
+The first section is made using Tailwind.
+```
+
