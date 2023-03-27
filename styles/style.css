@@ -26,7 +26,27 @@ body {
   .menu {
     margin-top: 3.5%;
     margin-bottom: 2.5%;
-    color: white;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  .menu:focus {
+    background-color: blue;
+  }
+
+  .menu:hover {
+    background-color: steelblue;
+    transform: scale(120%);
+  }
+
+  .mod-studio-pic{
+    transition: transform 1s;
+  }
+
+  .mod-studio-pic:hover{
+    transform: rotate(180deg);
   }
 
   .mod-studio-section {
@@ -290,6 +310,16 @@ body {
     font-size: 1rem;
     line-height: 1.1rem;
     color: #000000;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+
+  .description:focus{
+    color: yellow;
+  }
+
+  .description:hover{
+    background-color: red;
   }
 
   /* section 5 */
@@ -728,6 +758,11 @@ body {
     font-size: 2.1rem;
     text-align: left;
     margin-left: 2rem;
+    transition: all 0.3s;
+  }
+
+  .strengths_list:hover{
+    transform: translate(42px, 0px);
   }
 
   .strong-points-dawid {
@@ -765,5 +800,14 @@ body {
     padding: 0;
     margin-top: 3rem;
     background-color: #000000;
+  }
+
+  .strong-alfabet{
+    transition: all 0.3s;
+  }
+
+  .strong-alfabet:hover{
+    background-color: black;
+    color: gray;
   }
 }
