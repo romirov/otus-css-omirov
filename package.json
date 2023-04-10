@@ -2,15 +2,27 @@
   "name": "otus-css-omirov",
   "version": "1.0.0",
   "description": "## Project for Otus course ### Branches: #### [master] ``` This is main branch. ```",
-  "main": "index.js",
+  "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-dev": "webpack",
+    "start-dev": "webpack serve",
+    "start": "webpack serve --mode development -c webpack.config.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "css-loader": "^6.7.3",
+    "css-minimizer-webpack-plugin": "^5.0.0",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.0",
     "http-server": "^14.1.1",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "mini-css-extract-plugin": "^2.7.5",
+    "style-loader": "^3.3.2",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.78.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.2"
   },
   "devDependencies": {
     "prettier": "^2.8.7"
