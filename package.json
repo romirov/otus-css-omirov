@@ -2,11 +2,12 @@
   "name": "otus-css-omirov",
   "version": "1.0.0",
   "description": "## Project for Otus course ### Branches: #### [master] ``` This is main branch. ```",
-  "main": "webpack.config.js",
+  "main": "webpack.config.dev.js",
   "scripts": {
-    "build-dev": "webpack",
+    "build-dev": "webpack -c webpack.config.dev.js",
+    "build-prod": "webpack -c webpack.config.prod.js",
     "start-dev": "webpack serve",
-    "start": "webpack serve --mode development -c webpack.config.js"
+    "start": "webpack serve --mode development -c webpack.config.dev.js"
   },
   "author": "",
   "license": "ISC",
