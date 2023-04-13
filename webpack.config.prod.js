@@ -20,19 +20,57 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.css$/,
-        use: ['style-loader', "css-loader"],
+        test: /(\.css)$/,
+        use: [
+          "style-loader",
+          "css-loader",
+          {
+            loader: "postcss-loader",
+            options: {
+              postcssOptions: {
+                plugins: [
+                "autoprefixer",
+                "postcss-preset-env",
+                "postcss-deadcss",
+                "at-rule-packer",
+                ],
+              },
+            },
+          },
+        ]
       },
       {
         test: /\.html$/,
         use: 'html-loader'
       },
       {
-        test: /\.(png|gif)$/,
-        type: 'asset/resource',
-        generator:  {
-          filename: 'images/[name]-[hash][ext]',
-        }
+        test: /\.(jpeg|jpg|png|svg|gif)$/i,
+        use: [
+          {
+            loader: 'image-webpack-loader',
+            options: {
+              mozjpeg: {
+                progressive: true,
+              },
+              // optipng.enabled: false will disable optipng
+              optipng: {
+                enabled: false,
+              },
+              pngquant: {
+                quality: [0.65, 0.90],
+                speed: 4
+              },
+              gifsicle: {
+                interlaced: false,
+              },
+              // the webp option will enable WEBP
+              webp: {
+                quality: 75
+              }
+            }
+          },
+        ],
+        type: 'asset/resource'
       },
       {
         test: /\.(woff(2)?|eot|ttf|otf|svg|)$/,
