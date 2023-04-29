@@ -81,22 +81,23 @@ body {
   }
 
   .katya-mills-bio {
-    flex-basis:  10%;
+    flex-basis: 40%;
     font-size: 0.7rem;
     padding-top: 48.7rem;
-    padding-right: 14.5%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-47%, 0%);
     order: 3;
   }
 
   .katya-mills-img {
-    flex-basis: 100%;
+    flex-basis: 90%;
     text-align: right;
-    margin-left: 19%;
     order: 1;
   }
 
   .katya-mills-text {
-    flex-basis:  90%;
+    flex-basis: 65%;
     text-align: left;
     padding-top: 11.5rem;
     margin-left: 7.5%;
