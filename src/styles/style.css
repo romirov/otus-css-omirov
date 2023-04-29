@@ -86,7 +86,7 @@ body {
     padding-top: 48.7rem;
     left: 50%;
     top: 50%;
-    transform: translate(-47%, 0%);
+    transform: translate(-17%, 0%);
     order: 3;
   }
 
@@ -97,10 +97,12 @@ body {
   }
 
   .katya-mills-text {
-    flex-basis: 65%;
+    flex-basis: 60%;
     text-align: left;
-    padding-top: 11.5rem;
-    margin-left: 7.5%;
+    /* padding-top: 11.5rem; */
+    left: 50%;
+    top: 50%;
+    transform: translate(24%, 23%);
     order: 2;
   }
 
@@ -109,7 +111,7 @@ body {
     font-size: 5.5rem;
     font-weight: 400;
     line-height: 6.6rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     padding-right: 35%;
     background-color: white;
   }
