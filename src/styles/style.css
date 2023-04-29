@@ -150,6 +150,9 @@ body {
   }
 
   /* section 3 */
+  .designer-section {
+    overflow-x: auto;
+  }
   .designer {
     display: grid;
     grid-template-columns: repeat(2, 32.5rem) 22rem;
