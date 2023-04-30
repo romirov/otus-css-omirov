@@ -1,6 +1,11 @@
 # Frontend project
 
 ## Project for Otus course
+To start the project you need:
+- download and install VS Code
+- open project
+- open package.json
+- right-click on the start field and select run script
 ### Branches:
 #### [master]
 ```
